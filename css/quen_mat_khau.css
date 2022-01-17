@@ -1,0 +1,36 @@
+#main {
+    padding: 100px 20px;
+    width: 40%;
+}
+
+#main h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#main p {
+    margin-top: 20px;
+}
+
+#main .reset-pass {
+    margin: 10px 50px;
+    line-height: 20px;
+}
+
+#main .reset-pass input {
+    width: 50%;
+    border: 1px solid #ddd;
+    height: 20px;
+}
+
+#main .reset-pass button {
+    margin-top: 30px;
+    width: 30%;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+}

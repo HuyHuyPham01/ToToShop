@@ -1,0 +1,209 @@
+#col_right .dieu_huong {
+    width: calc(100% - 40px);
+    padding: 0 20px; 
+    background-color: #ddd;
+}
+
+#col_right .dieu_huong ul {
+    display: flex;
+}
+
+#col_right .dieu_huong li {
+    padding: 50px 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#col_right .dieu_huong li a:hover {
+    text-decoration: underline;
+    color: #78cccd;
+}
+
+#main-review {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.row_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_top .col_left {
+    width: 30%;
+}
+
+.row_top .col_left img {
+    width: 100%;
+}
+
+.row_top .col_right {
+    width: 67%;
+}
+
+.col_right h1 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+} 
+
+.col_right .price {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ff0000;
+    line-height: 35px;
+    padding: 10px 0;
+}
+
+.col_right p {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.col_right .color-list {
+    height: 110px;
+}
+.col_right .color-list ul {
+    display: flex;
+}
+
+.col_right .color-list .color img {
+    width: 50px;
+    margin: 10px 5px;
+}
+
+.col_right .color-list .color img:hover, .col_right .color-list .color img:active {
+    border: 1px solid red;
+}
+
+.col_right .kco_slg ul.content-kc-sl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col_right .kco {
+    width: 49%;
+}
+
+.col_right .kco li, .col_right .slg li {
+    line-height: 30px;
+}
+
+.col_right .kco .size ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+.col_right .kco .size ul a {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.col_right .kco .size ul a:hover {
+    border: 1px solid red;
+}
+
+.col_right .slg {
+    width: 49%;
+}
+
+.col_right .slg input {
+    margin: 10px 0;
+    line-height: 20px;
+    padding: 5px;
+    width: 15%;
+    text-align: center;
+}
+
+.col_right .btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.col_right .btn .add, .col_right .btn .mua {
+    width: 49%;
+    line-height: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1.6px;
+    cursor: pointer;
+}
+
+.col_right .btn .add {
+    color: red;
+    border: 2px solid red;
+}
+
+.col_right .btn .mua {
+    color: black;
+    border: 2px solid black;
+}
+
+.col_right .btn1 button {
+    width: 100%;
+    line-height: 30PX;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1.4px;
+    border: none;
+    cursor: pointer;
+}
+
+.col_right .btn1 button i {
+    margin: 0 10px;
+}
+
+.col_right .ttin {
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+
+.col_right .ttin li {
+    line-height: 25px;
+}
+
+.row_bottom h2 {
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.row_bottom .mo-ta {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.row_bottom .mo-ta img {
+    width: 100%;
+}
+
+.row_bottom .cung-danh-muc {
+    padding-top: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+#main-content .img-content .price {
+    text-align: center;
+}
+
+#main-content {
+    border-bottom: none !important;
+}

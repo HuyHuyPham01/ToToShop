@@ -1,0 +1,245 @@
+#main {
+    width: calc(100% - 40px);
+    padding: 20px 20px;
+}
+
+#main .title h1 {
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+
+.main-title {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    border-top: 2px solid rgb(175, 169, 169);
+}
+
+.main-title .col1 {
+    width: calc(100%/3);
+}
+
+.main-title .col2 {
+    width: calc((100%/3) - 4px);
+    border-left: 2px solid rgb(175, 169, 169);
+    border-right: 2px solid rgb(175, 169, 169);
+}
+
+.main-title .col3 {
+    width: calc(100%/3);
+}
+
+.round_circle_checkout {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.round_circle_checkout .circle {
+    height: 30px;
+    width: 30px;
+    display: block;
+    background-color: #E32124;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.round_circle_checkout .text_title_checkout {
+    width: calc(100% - 25px);
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    height: 23px;
+}
+
+.round_circle_checkout .text_title_checkout span {
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.info_customer {
+    margin-top: 10px;
+}
+
+
+.info_customer ul.sub_left_checkout {
+    display: flex;
+    width: 100%;
+}
+
+.sub_left_checkout li {
+    width: 50%;
+}
+
+.checkout_detail_infor {
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkout_detail_infor i {
+    color: red;
+    font-weight: 700;
+}
+
+.input_checkout_short {
+    width: calc(90% - 20px);
+    height: 25px;
+    border: 1px solid#c0c0c0;
+    padding: 0 10px;
+}
+
+.input_checkout_long {
+    width: calc(95% - 20px);
+    height: 25px;
+    border: 1px solid #c0c0c0;
+    padding: 0 10px;
+}
+
+.selection-checkout {
+    width: 95%;
+}
+
+.div-input-checkout {
+    width: 100%;
+    height: 25px;
+    border: 1px solid#c0c0c0;
+}
+
+.dropdown_checkout {
+    width: 100%;
+    height: 27px;
+    border: 1px solid#c0c0c0;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+#new_info_customer textarea {
+    width: calc(100% - 41px);
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid#c0c0c0;
+}
+
+#content_second_part {
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+.sub_left_radio {
+    padding: 5px;
+    line-height: 20px;
+}
+
+.uu-dai {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.uu-dai img {
+    width: 90%;
+}
+
+.gio-hang {
+    padding: 0 10px;
+    overflow: scroll;
+    height: 40%;
+}
+.gio-hang tr td img {
+    width: 40px;
+    height: 60px;
+}
+
+.gio-hang .tbl_cart_order th {
+    font-size: 12px;
+}
+
+.gio-hang .tbl_cart_order td {
+    font-size: 12px;
+    text-align: center;
+}
+
+#orderIf {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#orderIf p {
+    display: block;
+    font-size: 15px;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+#orderIf p span {
+    float: right;
+}
+
+#orderIf p.item {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#orderIf b.nhap {
+    margin: 20px 0;
+    font-size: 15px;
+    display: block;
+}
+
+.ma-uu-dai {
+    display: flex;
+    justify-content: space-between;
+}
+.ma-uu-dai input {
+    width: 55%;
+    height: 10px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #ddd;
+}
+
+.ma-uu-dai button {
+    width: 35%;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#orderIf a {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#orderIf .btnRed {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    background-color: #E32124;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
