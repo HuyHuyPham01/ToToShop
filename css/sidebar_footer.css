@@ -151,7 +151,7 @@ body {
 }
 
 #footer {
-    width: calc(100% - 40px);
+    width: 100%;
     background-color: black;
     padding: 20px;
 }
